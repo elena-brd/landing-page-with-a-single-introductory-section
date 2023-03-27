@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --primary-violet-color: hsl(257, 40%, 49%);
+    --primary-soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--primary-violet-color);
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    /* overflow: hidden; */
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 3rem;
+}
+
+.container {
+    background: url('./images/bg-desktop.svg') no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 5rem;
+    overflow: hidden;
+    margin: auto;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.left-side img {
+    width: 700px;
+}
+
+.right-side {
+    margin: 0 3rem;
+}
+
+.right-side h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 70%;
+}
+
+.right-side p {
+    padding: 2rem 0;
+    line-height: 1.6;
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    padding: 0.8rem 3rem;
+    border-radius: 35px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: var(--primary-soft-magenta);
+    color: #fff;
+}
